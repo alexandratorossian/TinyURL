@@ -6,8 +6,6 @@ TinyURL est un applicatif de gestion de liens courts.
 
 1. Clonez ce dépôt dans votre environnement de développement :
 
-git clone https://github.com/votre-utilisateur/tinyurl.git
-
 
 2. Accédez au répertoire du projet :
   ```
@@ -35,7 +33,7 @@ php artisan key:generate
 
 7. Configurez votre base de données dans le fichier `.env`.
 
-8. Exécutez les migrations pour créer les tables de base de données ou éxécuter le fichier SQL fourni dans docs :
+8. Exécutez les migrations pour créer les tables de base de données OU exécuter le fichier SQL fourni dans docs :
 
 ```
 php artisan migrate
@@ -55,7 +53,9 @@ php artisan serve
 
 ## Utilisation
 
-Une fois le serveur démarré, accédez à l'application dans votre navigateur à l'adresse `http://localhost:8000`.
+Une fois le serveur démarré, accédez à l'application dans votre navigateur à l'adresse `http://localhost:8000/TinyURL/frontend/index.html`.
+
+Pour le back-office, accédez à celui-ci via le serveur PHP `http://127.0.0.1:8000/login`.
 
 
 
