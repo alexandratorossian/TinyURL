@@ -7,9 +7,9 @@ TinyURL est un applicatif de gestion de liens courts.
 1. Clonez ce dépôt dans votre environnement de développement :
 
 
-2. Accédez au répertoire du projet :
+2. Accédez au répertoire du projet dans le dossier backend :
   ```
-cd tinyurl
+cd votrechemin\TinyURL\backend
 ``` 
 
 3. Installez les dépendances PHP avec Composer :
@@ -31,7 +31,7 @@ npm install
 php artisan key:generate
 ```
 
-7. Configurez votre base de données dans le fichier `.env`.
+7. Configurez votre base de données dans le fichier `.env` et créez une base de données vide `tinyurl` dans votre gestionnaire de BDD.
 
 8. Exécutez les migrations pour créer les tables de base de données OU exécuter le fichier SQL fourni dans docs :
 
@@ -46,7 +46,7 @@ php artisan serve
 
 10. Démarrez le serveur de développement npm :
  ```
- npm run watch
+ npm run dev
  ```
 
 
