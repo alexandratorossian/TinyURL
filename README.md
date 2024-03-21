@@ -18,7 +18,7 @@ composer install
 ```
 
 
-4. Installez les dépendances JavaScript avec npm :
+4. Installez les dépendances JavaScript avec npm (Node.js requis):
 ```
 npm install
 ```
@@ -57,6 +57,10 @@ Une fois le serveur démarré, accédez à l'application dans votre navigateur v
 `http://localhost:8000/TinyURL/frontend/index.html`.
 
 Pour le back-office, accédez à celui-ci via le serveur PHP `http://127.0.0.1:8000/login`.
+
+## Technologies utilisées 
+
+PHP 8.3.0, Laravel 11.0.7, Javascript, Node.js, mySQL
 
 
 
