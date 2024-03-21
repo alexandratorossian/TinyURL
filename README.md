@@ -49,8 +49,10 @@ php artisan serve
  npm run dev
  ```
 
-11. Changez la valeur de la constante baseUrl dans le fichier frontend\app.js ligne 1 avec l'adresse de votre serveur PHP
-
+11. Changez la valeur de la constante baseUrl dans le fichier frontend\app.js ligne 1 avec l'adresse de votre serveur PHP, exemple :
+```
+    const baseUrl = 'http://adresse.serveur';
+```
 
 ## Utilisation
 
