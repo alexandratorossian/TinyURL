@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function redirectToLongUrl(tabId) {
     console.log("Envoi de la requête pour récupérer l'URL longue de", tabId);
-    fetch(`http://127.0.0.1:8000/api/long-url/${tabId}`)
+    fetch(`api/long-url/${tabId}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erreur lors de la récupération de l\'URL longue');
