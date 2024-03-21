@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LinkController;
+use App\Http\Controllers\ClickController;
+
 
 
 Route::get('/', function () {
@@ -27,7 +29,10 @@ Route::put('/admin/links/{id}', [LinkController::class, 'update'])->name('admin.
 Route::delete('/admin/links/{id}', [LinkController::class, 'destroy'])->name('admin.links.destroy');
 
 // Link Count
-Route::post('/link-count', [LinkController::class, 'linkCount']);
+Route::post('/clicks', [ClickController::class, 'incrementClickCount'])->name('clicks.increment');
+
+Route::post('/links/{link}/increment-click-count', [ClickController::class, 'incrementClickCount'])->name('clicks.increment');
+
 
 
 
