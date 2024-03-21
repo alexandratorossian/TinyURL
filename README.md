@@ -53,7 +53,8 @@ php artisan serve
 
 ## Utilisation
 
-Une fois le serveur démarré, accédez à l'application dans votre navigateur via votre localhost, exemple `http://localhost:8000/TinyURL/frontend/index.html`.
+Une fois le serveur démarré, accédez à l'application dans votre navigateur via votre localhost, exemple 
+`http://localhost:8000/TinyURL/frontend/index.html`.
 
 Pour le back-office, accédez à celui-ci via le serveur PHP `http://127.0.0.1:8000/login`.
 
