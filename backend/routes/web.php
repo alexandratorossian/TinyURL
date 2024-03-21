@@ -26,6 +26,9 @@ Route::get('/admin/links/{id}/edit', [LinkController::class, 'edit'])->name('adm
 Route::put('/admin/links/{id}', [LinkController::class, 'update'])->name('admin.links.update');
 Route::delete('/admin/links/{id}', [LinkController::class, 'destroy'])->name('admin.links.destroy');
 
+// Link Count
+Route::post('/link-count', [LinkController::class, 'linkCount']);
+
 
 
 

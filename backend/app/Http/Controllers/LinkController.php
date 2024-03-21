@@ -75,4 +75,7 @@ class LinkController extends Controller
           return redirect()->route('admin.links.index')->with('success', 'Lien supprimé avec succès.');
       }
 
+      // Link Counts
+
+     
 }
