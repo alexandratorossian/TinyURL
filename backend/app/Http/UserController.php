@@ -16,8 +16,8 @@ class UserController extends Controller
     // Find the user by their ID or any other identifier
     $user = User::find(1); //
 
-    // Find or create the role you want to assign to the user
-    $role = Role::findOrCreate('admin'); // Assuming the role is 'admin'
+    // Find or create the role to assign it to the user
+    $role = Role::findOrCreate('admin');
 
     // Assign the role to the user
     $user->assignRole($role);
